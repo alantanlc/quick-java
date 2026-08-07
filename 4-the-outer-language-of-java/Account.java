@@ -11,7 +11,7 @@ public class Account {
     void withdraw(int amount) throws Exception {
         // amount must be positive else we end up increasing the funds
         if (amount <= 0) {
-            throw new Exception("Cannot withdraw negative amount");
+            throw new Exception("Cannot withdraw negative amount);
         }
 
         // ensure that there is sufficient funds before deducting amount
